@@ -2,7 +2,7 @@
 
 *🔌 Plug and Play*
 
-This package provides a way to extend the functionality of objects through the use of plugins.
+Plugin is a Swift SPM project that provides a flexible and modular approach to enhancing object functionality through the use of plugins. By conforming to the `Plugin` protocol, custom plugins can be created and added to objects that conform to the `Pluginable` protocol, without having to modify their original implementation. This allows developers the ability to add custom behaviors to their objects in a plug-and-play manner, making it easy to maintain and extend code over time.
 
 ## Usage
 
