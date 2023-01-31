@@ -30,6 +30,12 @@ public extension Pluginable {
             }
     }
 
+    /// A key path property to represent immutability.
+    var immutable: Void {
+        get { () }
+        set { }
+    }
+
     /// Register a plugin to the object.
     func register(plugin: any Plugin) {
         plugins.append(plugin)
