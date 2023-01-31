@@ -1,6 +1,6 @@
 # Plugin
 
-*Plug and Play*
+*🔌 Plug and Play*
 
 This package provides a way to extend the functionality of objects through the use of plugins.
 
