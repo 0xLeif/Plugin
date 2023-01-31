@@ -1,7 +1,7 @@
 /// A protocol that defines a plugin that can be registered and handled by a `Pluginable` object.
 public protocol Plugin {
     /// The source object that the plugin will modify.
-    associatedtype Source
+    associatedtype Source: Pluginable
 
     /// The input value that the plugin will handle.
     associatedtype Input
