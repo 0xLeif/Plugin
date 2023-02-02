@@ -1,4 +1,5 @@
-public protocol ImmutablePlugin: Plugin where Output == Void {
+/// A protocol that defines a plugin that can be registered and handled by a `Pluginable` object.
+public protocol ImmutablePlugin: Plugin where Output == Void, Source == ImmutablePluginable {
     /// The input value that the plugin will handle.
     associatedtype Value
 
@@ -10,6 +11,8 @@ public protocol ImmutablePlugin: Plugin where Output == Void {
     func handle(value: Value) async throws
 }
 
+// MARK: Public Implementation
+
 extension ImmutablePlugin where Value == Input {
     /// A keypath that provides access to the `immutable` property of the `Source`.
     public var keyPath: WritableKeyPath<Source, ()> {
@@ -19,5 +22,20 @@ extension ImmutablePlugin where Value == Input {
 
     public func handle(value: Value, output: inout ()) async throws {
         try await handle(value: value)
+    }
+}
+
+// MARK: Internal Implementation
+
+internal extension ImmutablePlugin {
+    func handle(_ value: Any) async throws {
+        guard let value = value as? Input else { return }
+
+        var output: Void = ()
+
+        try await handle(
+            value: value,
+            output: &output
+        )
     }
 }

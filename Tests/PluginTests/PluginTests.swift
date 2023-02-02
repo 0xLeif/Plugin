@@ -93,8 +93,6 @@ final class PluginTests: XCTestCase {
         }
 
         class CountPlugin: ImmutablePlugin {
-            typealias Source = MockService
-
             static let shared = CountPlugin()
             
             var count: Int = 0
