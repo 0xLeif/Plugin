@@ -28,7 +28,7 @@ extension ImmutablePlugin where Value == Input {
 // MARK: Internal Implementation
 
 internal extension ImmutablePlugin {
-    func handle(_ value: Any, source: inout Any) async throws {
+    func handle(_ value: Any) async throws {
         guard let value = value as? Input else { return }
 
         var output: Void = ()

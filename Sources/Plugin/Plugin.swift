@@ -35,7 +35,7 @@ internal extension Plugin {
 
     func handle(_ value: Any, source: inout Any) async throws {
         if let plugin = self as? any ImmutablePlugin {
-            return try await plugin.handle(value, source: &source)
+            return try await plugin.handle(value)
         }
 
         guard
