@@ -21,4 +21,3 @@ extension ImmutablePlugin where Value == Input {
         try await handle(value: value)
     }
 }
-
