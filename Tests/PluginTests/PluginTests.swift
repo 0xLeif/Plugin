@@ -86,4 +86,42 @@ final class PluginTests: XCTestCase {
         let token = try XCTUnwrap(urlRequest.request.allHTTPHeaderFields)["auth"]
         XCTAssertEqual(token, "token")
     }
+    
+    func testImmutablePlugin() async throws {
+        class MockService: Pluginable {
+            var plugins: [any Plugin] = []
+        }
+        
+        class CountPlugin: ImmutablePlugin {
+            typealias Source = MockService
+            
+            static let shared = CountPlugin()
+            
+            var count: Int = 0
+            
+            private init() {}
+            
+            func handle(value: Void) async throws {
+                count += 1
+            }
+        }
+        
+        let service = MockService()
+        
+        XCTAssertEqual(service.pluginTypes, [])
+        
+        service.register(
+            plugin: CountPlugin.shared
+        )
+        
+        XCTAssertEqual(service.pluginTypes, ["(input: (), output: ())"])
+        
+        try await service.handle(value: "Woot")
+        
+        XCTAssertEqual(CountPlugin.shared.count, 0)
+        
+        try await service.handle()
+        
+        XCTAssertEqual(CountPlugin.shared.count, 1)
+    }
 }
