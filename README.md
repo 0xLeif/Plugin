@@ -56,7 +56,7 @@ print(urlRequest.request.allHTTPHeaderFields) // ["auth": "token"]
 You can also access the `inputType` and `outputType` properties of any plugin and get the list of plugins with their `inputType` and `outputType` properties.
 
 ```swift
-let authPlugin = AuthPlugin()
+let authPlugin = AuthPlugin(keyPath: \.request)
 print(authPlugin.inputType) // Void
 print(authPlugin.outputType) // URLRequest
 
