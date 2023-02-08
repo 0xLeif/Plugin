@@ -45,7 +45,7 @@ Plugins can be registered to a `Pluginable` object using the `register(plugin: a
 ```swift
 let urlRequest = PluginURLRequest(url: URL(string: "https://example.com")!)
 
-urlRequest.register(plugin: AuthPlugin())
+urlRequest.register(plugin: AuthPlugin(keyPath: \.request))
 
 try await urlRequest.handle()
 print(urlRequest.request.allHTTPHeaderFields) // ["auth": "token"]
