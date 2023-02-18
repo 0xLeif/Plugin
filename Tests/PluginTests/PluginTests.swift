@@ -122,4 +122,35 @@ final class PluginTests: XCTestCase {
 
         XCTAssertEqual(CountPlugin.shared.count, 1)
     }
+
+    func testBadPlugins() async throws {
+        class MockService: Pluginable {
+            var plugins: [any Plugin] = []
+
+            var count: Int = 0
+        }
+
+        struct ExamplePlugin: Plugin {
+            var keyPath: WritableKeyPath<MockService, Int>
+
+            func handle(value: Void, output: inout Int) async throws {
+                output += 1
+            }
+        }
+
+        let service = MockService()
+
+        service.register(
+            plugins: .init(
+                repeating:  ExamplePlugin(
+                    keyPath: \.count
+                ),
+                count: 100
+            )
+        )
+
+        try await service.syncHandle()
+
+        XCTAssertEqual(service.count, 100)
+    }
 }
