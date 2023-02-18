@@ -17,8 +17,14 @@ let package = Package(
             targets: ["Plugin"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/0xLeif/Fork", from: "1.2.0")
+    ],
     targets: [
-        .target(name: "Plugin"),
+        .target(
+            name: "Plugin",
+            dependencies: ["Fork"]
+        ),
         .testTarget(
             name: "PluginTests",
             dependencies: ["Plugin"]
