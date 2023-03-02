@@ -67,3 +67,5 @@ print(pluginTypes) // [(input: Void, output: URLRequest)]
 ## Projects Using Plugins
 
 - [Scribe](https://github.com/0xLeif/Scribe): Scribe is a flexible logging library for Swift, designed to make logging easy and efficient. It provides a centralized system for logging messages and events within your application, and supports multiple logging outputs and plugins to extend its capabilities to meet your needs. Scribe integrates with [swift-log](https://github.com/apple/swift-log) for console logging, making it a versatile solution for all your logging requirements.
+
+- [PluginTask](https://github.com/0xLeif/PluginTask): PluginTask is a custom [`Task`](https://developer.apple.com/documentation/swift/task) that allows users to add plugins to modify its behavior. Plugins can be added to the PluginTask instance to perform additional functionality before or after the task's main operation. This makes it easy to modify the task's behavior without modifying its original implementation.
