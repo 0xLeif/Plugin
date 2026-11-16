@@ -9,7 +9,7 @@ stage: plan
 stage_status: active
 iteration: 1
 callers: []
-native_change: ""
+native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
 pr: ""
 criteria: [PLUGIN3-1, PLUGIN3-2, PLUGIN3-3]
 requirements: []
