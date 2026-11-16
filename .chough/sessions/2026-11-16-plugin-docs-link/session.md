@@ -5,7 +5,7 @@ aliases: [plugin-docs-link]
 objective: Plugin's README links its DocC site
 intent_scope: PLUGIN3-1 docs
 modules: []
-stage: build
+stage: accept
 stage_status: active
 iteration: 1
 callers: []
@@ -16,12 +16,12 @@ requirements: []
 cases: []
 design: []
 files: []
-observations: []
+observations: [2026-11-16-the-readme-links-https-0xleif-github-io-plugin-documentation]
 bugs: []
 blockers: []
 waiting_on_human: []
 run_consents: []
-next: Continue build
+next: Continue accept
 ---
 # Plugin's README links its DocC site
 
@@ -36,6 +36,8 @@ Plugin's README links its DocC site
 - 0xLeif decided "Approve the scope of plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article": "alsmo make sure the scribe and plugin github pages are loading and all docs swift docc" (Claude Code chat (hc t28), 2026-11-16; the Plugin README had no link to its DocC site); recorded by claude-code (hc t28); a relayed claim, not authenticated; ran specsync change approve plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article as 0xLeif
 
 ## What was verified
+
+- [The README links https://0xleif.github.io/Plugin/documentation/plugin and its movingfrom2x article; both return 200, and the DocC data JSON for both loads](evidence/2026-11-16-the-readme-links-https-0xleif-github-io-plugin-documentation.md)
 
 ## Open threads
 
@@ -73,4 +75,14 @@ Plugin's README links its DocC site
   - native_change: plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
   - gate: native:approved
   - revision: 3887ed6da698d2119b65853815ec54cdec794cc0
+  - by: claude-code (hc t28)
+- 2026-11-16T03:24:31Z · advance · build → test · native:approved ^t-48f180
+  - native_change: plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
+  - gate: native:approved
+  - revision: c262ff1985764dcf24883526fad0b8bc4824b3d7
+  - by: claude-code (hc t28)
+- 2026-11-16T03:24:31Z · advance · test → accept · native:approved ^t-294ef2
+  - native_change: plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
+  - gate: native:approved
+  - revision: c262ff1985764dcf24883526fad0b8bc4824b3d7
   - by: claude-code (hc t28)
