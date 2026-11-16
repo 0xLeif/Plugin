@@ -19,7 +19,11 @@ files: []
 observations: [2026-11-16-the-readme-links-https-0xleif-github-io-plugin-documentation]
 bugs: []
 blockers: []
-waiting_on_human: []
+waiting_on_human:
+  - gate: Implementation review of plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
+    holds: accept
+    drives: review
+    opened: 2026-11-16T03:24:33Z
 run_consents: []
 next: Continue accept
 ---
@@ -85,4 +89,10 @@ Plugin's README links its DocC site
   - native_change: plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
   - gate: native:approved
   - revision: c262ff1985764dcf24883526fad0b8bc4824b3d7
+  - by: claude-code (hc t28)
+- 2026-11-16T03:24:33Z · gate-opened · accept → accept · Implementation review of plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article ^t-e2921b
+  - native_change: plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
+  - revision: 371dcca7e6608af9b3ba6156b011f0cbe12dbab1
+  - holds: accept
+  - drives: review
   - by: claude-code (hc t28)
