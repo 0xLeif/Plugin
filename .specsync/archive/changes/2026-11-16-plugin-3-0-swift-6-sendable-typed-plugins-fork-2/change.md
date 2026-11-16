@@ -1,6 +1,6 @@
 ---
 id: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
-state: implementing
+state: archived
 type: feature
 base_commit: 7e77f9e539daf9161ea65804f176581255a958c2
 ---

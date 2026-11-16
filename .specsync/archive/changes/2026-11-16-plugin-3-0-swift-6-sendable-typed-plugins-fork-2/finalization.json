@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "change_id": "plugin-3-0-swift-6-sendable-typed-plugins-fork-2",
+  "implementation_commit": "fc8a0513b96b76549e9d07f7dca6c77a763bab40",
+  "implementation_tree": "cf34d604dcc2849b424d2220f72b409f253a1ef8",
+  "contract_digest": "68dcc373ce52bcc9ab86af17212d6cba2fa2b21c938f4cd76f89b56a3bae40d4",
+  "workspace_digest": "704d059a08c0a072d9b75f2424b041bf512ddb9680b897597f191b25399ef978",
+  "closing_digest": "af744a606b49ca8ecd119c047805c4f1eb45eeac9d31eaf682078c1fb48c3f3b",
+  "review_digest": "67a323743cacb8bbd6292ec256c611b7169342673955938d7852079e488d6d1b",
+  "finalization_digest": "d6da7308770d78fc2d556f1d8e2b6c4840726eb31bca33b1ce573747a0ca4f4f",
+  "timestamp": 1794799153
+}

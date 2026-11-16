@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "attempts": [
+    {
+      "timestamp": 1794799098,
+      "commit": "56c463649a2718aa1efdd8a809a50d48cfc9d6f9",
+      "contract_digest": "68dcc373ce52bcc9ab86af17212d6cba2fa2b21c938f4cd76f89b56a3bae40d4",
+      "execution_digest": "9ff1c012f828d7b2cbd487a622a02853503675549f8824da27f0abb82e6cbad9",
+      "workspace_digest": "8ae35128bc9b9688a0caf256859dff7b41b0761c150a388170c3cb0fce84a8e6",
+      "passed": true,
+      "commands": [
+        {
+          "command": "specsync check --spec Plugin",
+          "success": true,
+          "exit_code": 0
+        }
+      ],
+      "requirement_ids": [
+        "REQ-Plugin-1",
+        "REQ-Plugin-2",
+        "REQ-Plugin-3",
+        "REQ-Plugin-4"
+      ]
+    },
+    {
+      "timestamp": 1794799099,
+      "commit": "ab4afee627ae9bb753e648aec9ba106278358970",
+      "contract_digest": "68dcc373ce52bcc9ab86af17212d6cba2fa2b21c938f4cd76f89b56a3bae40d4",
+      "execution_digest": "9ff1c012f828d7b2cbd487a622a02853503675549f8824da27f0abb82e6cbad9",
+      "workspace_digest": "6d2611f2be3066233c2203c15c1d8b96dc23d3eac8d88a6e829eab2dda9c58e4",
+      "passed": true,
+      "commands": [
+        {
+          "command": "specsync check --spec Plugin",
+          "success": true,
+          "exit_code": 0
+        }
+      ],
+      "requirement_ids": [
+        "REQ-Plugin-1",
+        "REQ-Plugin-2",
+        "REQ-Plugin-3",
+        "REQ-Plugin-4"
+      ]
+    },
+    {
+      "timestamp": 1794799100,
+      "commit": "8cd432ef3153bb102e3dd51f34ba2dc8892f0bf1",
+      "contract_digest": "68dcc373ce52bcc9ab86af17212d6cba2fa2b21c938f4cd76f89b56a3bae40d4",
+      "execution_digest": "9ff1c012f828d7b2cbd487a622a02853503675549f8824da27f0abb82e6cbad9",
+      "workspace_digest": "704d059a08c0a072d9b75f2424b041bf512ddb9680b897597f191b25399ef978",
+      "passed": true,
+      "commands": [
+        {
+          "command": "specsync check --spec Plugin",
+          "success": true,
+          "exit_code": 0
+        }
+      ],
+      "requirement_ids": [
+        "REQ-Plugin-1",
+        "REQ-Plugin-2",
+        "REQ-Plugin-3",
+        "REQ-Plugin-4"
+      ]
+    },
+    {
+      "timestamp": 1794799101,
+      "commit": "6938980b7a4677b1355d015ded4eed8b3a253093",
+      "contract_digest": "68dcc373ce52bcc9ab86af17212d6cba2fa2b21c938f4cd76f89b56a3bae40d4",
+      "execution_digest": "9ff1c012f828d7b2cbd487a622a02853503675549f8824da27f0abb82e6cbad9",
+      "workspace_digest": "704d059a08c0a072d9b75f2424b041bf512ddb9680b897597f191b25399ef978",
+      "passed": true,
+      "commands": [
+        {
+          "command": "specsync check --spec Plugin",
+          "success": true,
+          "exit_code": 0
+        }
+      ],
+      "requirement_ids": [
+        "REQ-Plugin-1",
+        "REQ-Plugin-2",
+        "REQ-Plugin-3",
+        "REQ-Plugin-4"
+      ]
+    },
+    {
+      "timestamp": 1794799101,
+      "commit": "fc8a0513b96b76549e9d07f7dca6c77a763bab40",
+      "contract_digest": "68dcc373ce52bcc9ab86af17212d6cba2fa2b21c938f4cd76f89b56a3bae40d4",
+      "execution_digest": "9ff1c012f828d7b2cbd487a622a02853503675549f8824da27f0abb82e6cbad9",
+      "workspace_digest": "704d059a08c0a072d9b75f2424b041bf512ddb9680b897597f191b25399ef978",
+      "acceptance_input_digest": "370d2dcf83a0f5dfc1d20f0a2e47560bd02757bda7a5618d5bf1dfc958a96d93",
+      "acceptance_manifest": {
+        "schema_version": 1,
+        "entries": [
+          {
+            "path": ".chough/sessions",
+            "kind": "non_file",
+            "mode": 0,
+            "payload_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "entry_digest": "ed94fa209bed8458af353299e273e42f1e43a88f237fb72c9fdef8473e0f4841",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": ".chough/sessions/2026-11-16-plugin-3-swift6/evidence/2026-11-16-at-46c3b31-swift-test-swift-6-mode-11-tests-in-4-suites-pass.md",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "9ee7793fcc7c826755c4caada3c16e95d3978fc5a64f4c3b44cd7b01f78ab446",
+            "entry_digest": "84fcb19b11e9ef91f27d5a4b304c020adb90882db59c7f05a371adcc216ddb2c",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": ".chough/sessions/2026-11-16-plugin-3-swift6/session.md",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "5169f21f648f761078ada15a5f35f63c30f4c947e754ea5d2cdc00a838a9c835",
+            "entry_digest": "8526f8afb366e7ed1edfdaf84021ba4760d1d713b69c3c32cb490fa29a3513fe",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": ".github/workflows",
+            "kind": "non_file",
+            "mode": 0,
+            "payload_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "entry_digest": "393b55385bf3382491bdcc2b1a9b95da12bf82cdb582c2b5fb21ef5c0b612bee",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": ".github/workflows/CI.yml",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "6dc72201570105636afc6a607bbc75c7a37d2489745558f28fecf8f2dd5d1f12",
+            "entry_digest": "36a30e164dd8818bab4d4934cadbb22c6726b689a5adccfc1a2fb7dd39c6eae4",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": ".github/workflows/docc.yml",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "447b0e6a768ff0ea00bfd5ff48fd399cea8a2bba0b15b7f831e5ae5bfdec4cb4",
+            "entry_digest": "2a9ccf3da3dfc68c2808319fa0888e768083c39a79e058dc8d27d87485a8bb93",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": "Package.swift",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "7de4226882e8d9e4eed5ab222ac3e5e9c1789bfe99e7adcbd8326ed8ed05e523",
+            "entry_digest": "494148c14e8abf2e0bcea1c82c765c2a1a80a190c180165aabc46beab5cd0cb2",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": "README.md",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "09bfef49f6ba4376a9b7f1187124eff32df05c862c2fa667d4a2bb46e17041ff",
+            "entry_digest": "af8ab9b0ae149332316c17903e1852f60de8f930834dce63a65f25e90f821f64",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": "Sources/Plugin",
+            "kind": "non_file",
+            "mode": 0,
+            "payload_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "entry_digest": "a177419014ea62834525f9d26ba5d60b56c40ad7fbd9a0ac9d4c5ba0152f9888",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": "Sources/Plugin/ImmutablePlugin.swift",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "88d5060a41e222d3d928d67648514216e91cfdcefd0f1b62c379ff3c21135ec9",
+            "entry_digest": "b1fdc23fbb23d07494714ece199ed0ad3141e6453e4d7503abd217437ac8a095",
+            "owners": [
+              "Plugin"
+            ]
+          },
+          {
+            "path": "Sources/Plugin/Plugin.docc/MovingFrom2x.md",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "f5ac020f37c89cfad36a509630865a339564c6b071a9b80caf040ba119ccf917",
+            "entry_digest": "930f9fe5e7fc9ad44cda39b9168b2473dea87febea2e00c3db5283931b070793",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": "Sources/Plugin/Plugin.docc/Plugin.md",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "a038f9538c582bb3448b1f99cc38cea74c7be935c3357deef4d35a71f2a0ca0f",
+            "entry_digest": "94ad702051d0fbdddb995444e837e87a5192dd702a54ab0a5f3ba2aea96c76af",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": "Sources/Plugin/Plugin.swift",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "3fd2465b1e6a2578bba78271c739d75e1b67ff66a9cf52d7e080aa5a26a65d64",
+            "entry_digest": "98b68297e9e0fae2cd0835ef2a9e57bfd520a4a38c7d9f8024a5c9b45d2f1654",
+            "owners": [
+              "Plugin"
+            ]
+          },
+          {
+            "path": "Sources/Plugin/Pluginable.swift",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "30ca83c52c95ff6f648a275d3f6125e90e497625add477a0895a4ad18ceeafb5",
+            "entry_digest": "8b289b47e7077c471b540821f05ac818b4bcfd83d78fea4bc4bac2510df1bedb",
+            "owners": [
+              "Plugin"
+            ]
+          },
+          {
+            "path": "Sources/Plugin/Plugins.swift",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "15cbcf235756784942dda9606cdbc559f1eba25ad224310d296abf3041e93966",
+            "entry_digest": "8122f567c7ca36f2fef93d0085536d78a093c2dd466d871c9d3a10047d43b1f4",
+            "owners": [
+              "Plugin"
+            ]
+          },
+          {
+            "path": "Tests/PluginTests",
+            "kind": "non_file",
+            "mode": 0,
+            "payload_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "entry_digest": "35a1e792ad85c39c80a5e776d67cf95313e3e0e6d7167e490b36103b76cb934c",
+            "owners": [
+              "@exact:test"
+            ]
+          },
+          {
+            "path": "Tests/PluginTests/PluginTests.swift",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "5212109b20381d5528c0a8ca3af7ffe549c1e8b4a81f596067caee26daee0b34",
+            "entry_digest": "ade03ab541d37643bd70e7537871c99c250edeef8931fd4a01c785c6d7229cdc",
+            "owners": [
+              "@exact:test"
+            ]
+          },
+          {
+            "path": "specs/Plugin",
+            "kind": "non_file",
+            "mode": 0,
+            "payload_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "entry_digest": "8cac5f0cb246b0ae36da7acb4c144d582cebc0930c835a17b3df98a31fea4855",
+            "owners": [
+              "@exact:delivery"
+            ]
+          },
+          {
+            "path": "specs/Plugin/Plugin.spec.md",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "ed4c4739c7d7ee922cffd141aaaf2899dfdd9f150bf38644fc57936427d065e0",
+            "entry_digest": "97cb3f6b67838329061e133370878495f2448919bc01ad6ccc2ddf1d98e6161b",
+            "owners": [
+              "Plugin"
+            ]
+          },
+          {
+            "path": "specs/Plugin/requirements.md",
+            "kind": "file",
+            "mode": 33188,
+            "payload_digest": "4d5667eb21ea89c50ba351611d0f844e7b2160f07927a2eb8f10f793a2a7c775",
+            "entry_digest": "b760e67f36a229c944ef421fc7dccd73ac4738c5bf1bc54536a431f948653d89",
+            "owners": [
+              "Plugin"
+            ]
+          }
+        ]
+      },
+      "passed": true,
+      "commands": [
+        {
+          "command": "specsync check --spec Plugin",
+          "success": true,
+          "exit_code": 0
+        }
+      ],
+      "requirement_ids": [
+        "REQ-Plugin-1",
+        "REQ-Plugin-2",
+        "REQ-Plugin-3",
+        "REQ-Plugin-4"
+      ]
+    }
+  ]
+}

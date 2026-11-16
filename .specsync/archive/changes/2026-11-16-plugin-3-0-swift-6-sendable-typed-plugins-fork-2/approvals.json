@@ -47,6 +47,13 @@
         "where": "Claude Code chat (hc t28), 2026-11-16, after the summary of Plugin 3.0 (Swift 6, Sendable typed plugins, Fork 2) and Scribe 3.1 adopting it compatibly",
         "recorded_by": "claude-code (hc t28)"
       }
+    },
+    {
+      "gate": "finalization",
+      "actor": "specsync:finalization",
+      "timestamp": 1794799153,
+      "digest": "af744a606b49ca8ecd119c047805c4f1eb45eeac9d31eaf682078c1fb48c3f3b",
+      "note": "Same-PR finalization closing digest"
     }
   ],
   "reopenings": []
