@@ -1,6 +1,6 @@
 ---
 id: plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
-state: draft
+state: approved
 type: documentation
 base_commit: bd66202a737bc1557ba55bb757837db83e240909
 ---

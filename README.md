@@ -6,6 +6,8 @@ Plugin is a small Swift package for adding behavior to an object through plugins
 
 Plugin 3.0 builds in the Swift 6 language mode with complete data-race checking. Every public protocol and type is `Sendable`, and the package has no dependencies.
 
+**Documentation:** [0xleif.github.io/Plugin](https://0xleif.github.io/Plugin/documentation/plugin), including [Moving from 2.x](https://0xleif.github.io/Plugin/documentation/plugin/movingfrom2x).
+
 ## Installation
 
 ```swift

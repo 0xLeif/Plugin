@@ -5,4 +5,4 @@ artifact: tasks
 
 # Tasks
 
-- [ ] README links the DocC site and the Moving from 2.x article
+- [x] README links the DocC site and the Moving from 2.x article
