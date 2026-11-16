@@ -7,10 +7,11 @@
   "title": "Plugin's README links its DocC documentation and the Moving from 2.x article",
   "description": "Plugin's README links its DocC documentation and the Moving from 2.x article",
   "kind": "documentation",
-  "state": "approved",
+  "state": "verifying",
+  "canonical_applied": true,
   "base_commit": "bd66202a737bc1557ba55bb757837db83e240909",
   "created_at": 1794799448,
-  "updated_at": 1794799470,
+  "updated_at": 1794799472,
   "affected_specs": [],
   "affected_paths": [
     "README.md",

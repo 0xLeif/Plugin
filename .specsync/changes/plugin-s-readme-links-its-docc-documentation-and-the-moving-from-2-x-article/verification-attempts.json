@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "attempts": [
+    {
+      "timestamp": 1794799471,
+      "commit": "5dcd3548e6f41d7630ae8907f49991e26263d8a6",
+      "contract_digest": "fcdb815e2bcadd030c37567c0911d2bf5cfd66c42f697818ac0f62c52dcb8460",
+      "execution_digest": "f02448a1bb360431a314f2704a4d70a4d51a9694657bb23cc0029c09eb107f88",
+      "workspace_digest": "a2a0cb375d6c8e4c9924fc50fe825d085bf1e32001554b5b8842e9a8717f9beb",
+      "passed": true,
+      "commands": [
+        {
+          "command": "specsync check (no spec in scope)",
+          "success": true,
+          "exit_code": 0
+        }
+      ],
+      "requirement_ids": []
+    }
+  ]
+}
