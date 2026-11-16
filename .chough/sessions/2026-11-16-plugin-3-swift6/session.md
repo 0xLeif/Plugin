@@ -5,7 +5,7 @@ aliases: [plugin-3-swift6]
 objective: "Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2"
 intent_scope: ""
 modules: [Plugin]
-stage: accept
+stage: done
 stage_status: active
 iteration: 1
 callers: []
@@ -19,13 +19,9 @@ files: []
 observations: [2026-11-16-at-46c3b31-swift-test-swift-6-mode-11-tests-in-4-suites-pass]
 bugs: []
 blockers: []
-waiting_on_human:
-  - gate: Implementation review of plugin-3-0-swift-6-sendable-typed-plugins-fork-2
-    holds: accept
-    drives: review
-    opened: 2026-11-16T03:18:20Z
+waiting_on_human: []
 run_consents: []
-next: Continue accept
+next: Continue done
 ---
 # Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
 
@@ -38,6 +34,7 @@ Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
 ## Decisions and why
 
 - 0xLeif decided "Approve the scope of plugin-3-0-swift-6-sendable-typed-plugins-fork-2": "yes do Plugin 3.0 and Scribe 3.1" (Claude Code chat (hc t28), 2026-11-16, after the summary of Plugin 3.0 (Swift 6, Sendable typed plugins, Fork 2) and Scribe 3.1 adopting it compatibly); recorded by claude-code (hc t28); a relayed claim, not authenticated; ran specsync change approve plugin-3-0-swift-6-sendable-typed-plugins-fork-2 as 0xLeif
+- 0xLeif decided "Implementation review of plugin-3-0-swift-6-sendable-typed-plugins-fork-2": "yes I accept Plugin 3.0" (Claude Code chat (hc t28), 2026-11-16, on the Plugin 3.0 implementation review (list 7174f8af2a36, 0xLeif/Plugin#9)); recorded by claude-code (hc t28); a relayed claim, not authenticated; ran specsync change review plugin-3-0-swift-6-sendable-typed-plugins-fork-2 as 0xLeif with verdict pass
 
 ## What was verified
 
@@ -95,4 +92,20 @@ Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
   - revision: a671bea56407fa479235c9982b719bf6f5d34724
   - holds: accept
   - drives: review
+  - by: claude-code (hc t28)
+- 2026-11-16T03:19:16Z · gate-closed · accept → accept · Implementation review of plugin-3-0-swift-6-sendable-typed-plugins-fork-2 ^t-b99238
+  - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+  - revision: 4f6af28df10a52827763ed61230dc442d94f07dc
+  - relayed_by:
+    - decided_by: 0xLeif
+    - words: yes I accept Plugin 3.0
+    - where: Claude Code chat (hc t28), 2026-11-16, on the Plugin 3.0 implementation review (list 7174f8af2a36, 0xLeif/Plugin#9)
+    - recorded_by: claude-code (hc t28)
+    - native: specsync change review plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+    - actor: 0xLeif
+  - by: claude-code (hc t28)
+- 2026-11-16T03:19:17Z · advance · accept → done · native:archived ^t-062a63
+  - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+  - gate: native:archived
+  - revision: 4f6af28df10a52827763ed61230dc442d94f07dc
   - by: claude-code (hc t28)
