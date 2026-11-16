@@ -1,30 +1,28 @@
-// swift-tools-version: 5.6
+// swift-tools-version: 6.0
+// Tools version 6.0 builds every target in the Swift 6 language mode (complete data-race checking).
 
 import PackageDescription
 
 let package = Package(
     name: "Plugin",
+    // The floor is set by parameterized protocol existentials (`any Plugin<Input, Output>`),
+    // which need the Swift 5.7 runtime, and by `OSAllocatedUnfairLock`, which guards the
+    // plugin list without an `@unchecked Sendable` conformance. Both arrived in the same releases.
     platforms: [
-        .macOS(.v11),
-        .iOS(.v14),
-        .watchOS(.v7),
-        .tvOS(.v14)
+        .macOS(.v13),
+        .iOS(.v16),
+        .tvOS(.v16),
+        .watchOS(.v9),
+        .visionOS(.v1)
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Plugin",
             targets: ["Plugin"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/0xLeif/Fork", from: "1.2.0")
-    ],
     targets: [
-        .target(
-            name: "Plugin",
-            dependencies: ["Fork"]
-        ),
+        .target(name: "Plugin"),
         .testTarget(
             name: "PluginTests",
             dependencies: ["Plugin"]

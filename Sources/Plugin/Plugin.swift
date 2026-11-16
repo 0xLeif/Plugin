@@ -1,51 +1,30 @@
-/// A protocol that defines a plugin that can be registered and handled by a `Pluginable` object.
-public protocol Plugin {
-    /// The source object that the plugin will modify.
-    associatedtype Source: Pluginable
+/// A plugin that handles a typed input and returns an output.
+///
+/// The input and the output are both `Sendable`, so a plugin can be handed to any task.
+/// Conforming types are `Sendable` too: use a struct of `Sendable` values, an actor,
+/// or a final class that protects its own state.
+///
+/// ```swift
+/// struct UppercasePlugin: Plugin {
+///     func handle(value: String) async throws -> String {
+///         value.uppercased()
+///     }
+/// }
+/// ```
+///
+/// Because `Input` and `Output` are primary associated types, a list of different plugins
+/// with the same input and output can be stored as `[any Plugin<String, String>]`.
+public protocol Plugin<Input, Output>: Sendable {
+    /// The value the plugin handles.
+    associatedtype Input: Sendable
 
-    /// The input value that the plugin will handle.
-    associatedtype Input
+    /// The value the plugin returns.
+    associatedtype Output: Sendable
 
-    /// The value that the plugin will modify from the source object.
-    associatedtype Output
-
-    /// The key path to the property that the plugin will modify on the `Source` object.
-    var keyPath: WritableKeyPath<Source, Output> { get set }
-
-    /// Handles the input value and modifies the output value at the specified key path on the source object.
+    /// Handles one input value.
     ///
-    /// - Parameters:
-    ///   - value: The input value that the plugin will handle.
-    ///   - output: The value that the plugin will modify from the source object. It is passed as an inout parameter so that it can be modified directly.
-    /// - Throws: Any errors that occur during handling of the input value.
-    func handle(value: Input, output: inout Output) async throws
-}
-
-// MARK: Internal Implementation
-
-internal extension Plugin {
-    var inputType: String { "\(Input.self)" }
-    var outputType: String { "\(Output.self)" }
-
-    func isValid(value: Any) -> Bool {
-        guard let _ = value as? Input else { return false }
-
-        return true
-    }
-
-    func handle(_ value: Any, source: inout Any) async throws {
-        if let plugin = self as? any ImmutablePlugin {
-            return try await plugin.handle(value)
-        }
-
-        guard
-            let value = value as? Input,
-            var source = source as? Source
-        else { return }
-
-        try await handle(
-            value: value,
-            output: &source[keyPath: keyPath]
-        )
-    }
+    /// - Parameter value: The input value to handle.
+    /// - Returns: The plugin's output for this value.
+    /// - Throws: Any error the plugin raises while handling the value.
+    func handle(value: Input) async throws -> Output
 }
