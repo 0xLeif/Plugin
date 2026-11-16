@@ -1,0 +1,62 @@
+{
+  "timestamp": 1794799790,
+  "commit": "2ea5a7d5130696cd27ecaad11acebecf57f1ec0e",
+  "contract_digest": "fcdb815e2bcadd030c37567c0911d2bf5cfd66c42f697818ac0f62c52dcb8460",
+  "execution_digest": "f02448a1bb360431a314f2704a4d70a4d51a9694657bb23cc0029c09eb107f88",
+  "workspace_digest": "83573137a0c28dad193b0473f243d7bd8e0c0e61efada6bf4793bdacb80a5bfe",
+  "acceptance_input_digest": "9b13a261fc9267fd5b2fc86be6fe48a713f86de7d487cf7859c0df5057aa8645",
+  "acceptance_manifest": {
+    "schema_version": 1,
+    "entries": [
+      {
+        "path": ".chough/sessions",
+        "kind": "non_file",
+        "mode": 0,
+        "payload_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "entry_digest": "ed94fa209bed8458af353299e273e42f1e43a88f237fb72c9fdef8473e0f4841",
+        "owners": [
+          "@exact:delivery"
+        ]
+      },
+      {
+        "path": ".chough/sessions/2026-11-16-plugin-docs-link/evidence/2026-11-16-the-readme-links-https-0xleif-github-io-plugin-documentation.md",
+        "kind": "file",
+        "mode": 33188,
+        "payload_digest": "53ab0b4546cbea581218673f1ec78f7b22e9b241742630126d0726c37e5b11fd",
+        "entry_digest": "dc457f691b0da5892d6bd75499e8575cbe84bf959ee48fea1b0bf5c55ab2d429",
+        "owners": [
+          "@exact:delivery"
+        ]
+      },
+      {
+        "path": ".chough/sessions/2026-11-16-plugin-docs-link/session.md",
+        "kind": "file",
+        "mode": 33188,
+        "payload_digest": "9b7f1b3719db94aba6f9fa1030f6eceb18e740a4e2e8e7b09991d436d660ed60",
+        "entry_digest": "2cb1662e4e57ac2552b2bc6a6a06ea9a2dbccc99fb8c7760a9c5e78802f2b56b",
+        "owners": [
+          "@exact:delivery"
+        ]
+      },
+      {
+        "path": "README.md",
+        "kind": "file",
+        "mode": 33188,
+        "payload_digest": "761b08946a2d33fba303ed5a55783352c71aba4f687367702ac1ad26cd3471d4",
+        "entry_digest": "b99b56c6e9b22c8fdadccb8b31af58c8629b26d52979d13e01922ba2a0b95fec",
+        "owners": [
+          "@exact:delivery"
+        ]
+      }
+    ]
+  },
+  "passed": true,
+  "commands": [
+    {
+      "command": "specsync check (no spec in scope)",
+      "success": true,
+      "exit_code": 0
+    }
+  ],
+  "requirement_ids": []
+}

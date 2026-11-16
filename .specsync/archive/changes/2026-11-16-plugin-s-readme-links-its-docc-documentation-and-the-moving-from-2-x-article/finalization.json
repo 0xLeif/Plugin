@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "change_id": "plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article",
+  "implementation_commit": "2ea5a7d5130696cd27ecaad11acebecf57f1ec0e",
+  "implementation_tree": "c0e262353b25ab30a45500d5ba1705df1134af7b",
+  "contract_digest": "fcdb815e2bcadd030c37567c0911d2bf5cfd66c42f697818ac0f62c52dcb8460",
+  "workspace_digest": "83573137a0c28dad193b0473f243d7bd8e0c0e61efada6bf4793bdacb80a5bfe",
+  "closing_digest": "4c1a48cf72f50d9dabda0171f05c757a0cdefccb42b71f38b3656c32fa7993b6",
+  "review_digest": "1dd14ef4b4fd44763b233ec27d28cbb580ca27d278f0a647c6128805c963a7bb",
+  "finalization_digest": "7d5b5d46983af8a591fd59a10fa092c5bb23a660e3a51e68f7dddf5a08171b52",
+  "timestamp": 1794799937
+}

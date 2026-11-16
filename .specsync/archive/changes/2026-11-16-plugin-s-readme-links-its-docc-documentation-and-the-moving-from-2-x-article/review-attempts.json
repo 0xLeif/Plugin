@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "reviews": [
+    {
+      "schema_version": 2,
+      "change_id": "plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article",
+      "reviewer": "0xLeif",
+      "provenance": {
+        "schema_version": 1,
+        "provider": "github_actions_check",
+        "required_check": "SpecSync scoped review"
+      },
+      "verdict": "pass",
+      "implementation_commit": "2ea5a7d5130696cd27ecaad11acebecf57f1ec0e",
+      "contract_digest": "fcdb815e2bcadd030c37567c0911d2bf5cfd66c42f697818ac0f62c52dcb8460",
+      "execution_digest": "f02448a1bb360431a314f2704a4d70a4d51a9694657bb23cc0029c09eb107f88",
+      "workspace_digest": "83573137a0c28dad193b0473f243d7bd8e0c0e61efada6bf4793bdacb80a5bfe",
+      "timestamp": 1794799933,
+      "relayed_by": {
+        "decided_by": "0xLeif",
+        "words": "i approve all",
+        "where": "Claude Code chat (hc t28), 2026-11-16, accepting the Plugin docs fix (PR 0xLeif/Plugin#10) and authorizing its admin merge",
+        "recorded_by": "claude-code (hc t28)"
+      }
+    }
+  ]
+}

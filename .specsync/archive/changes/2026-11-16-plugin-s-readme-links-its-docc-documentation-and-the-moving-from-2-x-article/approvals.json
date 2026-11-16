@@ -1,0 +1,50 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "0xLeif",
+      "timestamp": 1794799470,
+      "digest": "fcdb815e2bcadd030c37567c0911d2bf5cfd66c42f697818ac0f62c52dcb8460",
+      "note": "Approved by 0xLeif at the Chough gate \"Approve the scope of plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article\": \"alsmo make sure the scribe and plugin github pages are loading and all docs swift docc\" (Claude Code chat (hc t28), 2026-11-16; the Plugin README had no link to its DocC site). Relayed and recorded by claude-code (hc t28) at 2026-11-16T03:24:29Z through chough gate record a805fa7d76a0; a relayed claim, not authenticated.",
+      "approved_scope": {
+        "schema_version": 1,
+        "change_id": "plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article",
+        "title": "Plugin's README links its DocC documentation and the Moving from 2.x article",
+        "description": "Plugin's README links its DocC documentation and the Moving from 2.x article",
+        "kind": "documentation",
+        "affected_specs": [],
+        "affected_paths": [
+          ".chough/sessions",
+          "README.md"
+        ],
+        "no_spec_change": true,
+        "no_spec_change_rationale": "A README link only",
+        "acceptance_criteria": [
+          "The README links the DocC site and the Moving from 2.x article, and both load."
+        ],
+        "dependencies": [],
+        "supersedes": [],
+        "answers": {
+          "architecture_risk": "no",
+          "public_contract": "no"
+        }
+      },
+      "approved_delta_digests": {},
+      "approved_delta_bases": {},
+      "relayed_by": {
+        "decided_by": "0xLeif",
+        "words": "alsmo make sure the scribe and plugin github pages are loading and all docs swift docc",
+        "where": "Claude Code chat (hc t28), 2026-11-16; the Plugin README had no link to its DocC site",
+        "recorded_by": "claude-code (hc t28)"
+      }
+    },
+    {
+      "gate": "finalization",
+      "actor": "specsync:finalization",
+      "timestamp": 1794799937,
+      "digest": "4c1a48cf72f50d9dabda0171f05c757a0cdefccb42b71f38b3656c32fa7993b6",
+      "note": "Same-PR finalization closing digest"
+    }
+  ],
+  "reopenings": []
+}
