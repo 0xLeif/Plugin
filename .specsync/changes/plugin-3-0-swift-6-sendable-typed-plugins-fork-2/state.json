@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "workflow_version": 2,
+  "workflow_origin_version": 2,
+  "id": "plugin-3-0-swift-6-sendable-typed-plugins-fork-2",
+  "slug": "plugin-3-0-swift-6-sendable-typed-plugins-fork-2",
+  "title": "Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2",
+  "description": "Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2",
+  "kind": "feature",
+  "state": "draft",
+  "base_commit": "7e77f9e539daf9161ea65804f176581255a958c2",
+  "created_at": 1794798559,
+  "updated_at": 1794798567,
+  "affected_specs": [
+    "Plugin"
+  ],
+  "affected_paths": [
+    "Sources/Plugin",
+    "Tests/PluginTests",
+    "Package.swift",
+    "README.md",
+    "specs/Plugin",
+    ".github/workflows"
+  ],
+  "no_spec_change": false,
+  "no_spec_change_rationale": null,
+  "acceptance_criteria": [
+    "Plugin 3.0 builds in Swift 6 with Sendable, typed plugins and a safe container on Fork 2.x, and Scribe's ScribePlugin can refine it without breaking Scribe 3.0 plugins."
+  ],
+  "selected_artifacts": [
+    "context",
+    "requirements",
+    "plan",
+    "tasks",
+    "testing",
+    "docs",
+    "design",
+    "research"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "yes",
+    "constraints": "Swift 6 strict concurrency; compatibility with Scribe 3.0 plugins; a 3.0 major version",
+    "public_contract": "yes"
+  }
+}
