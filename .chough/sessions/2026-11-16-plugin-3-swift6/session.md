@@ -19,7 +19,11 @@ files: []
 observations: [2026-11-16-at-46c3b31-swift-test-swift-6-mode-11-tests-in-4-suites-pass]
 bugs: []
 blockers: []
-waiting_on_human: []
+waiting_on_human:
+  - gate: Implementation review of plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+    holds: accept
+    drives: review
+    opened: 2026-11-16T03:18:20Z
 run_consents: []
 next: Continue accept
 ---
@@ -85,4 +89,10 @@ Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
   - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
   - gate: native:approved
   - revision: 46c3b31c39e6baa10793deabd923d55e6a56d543
+  - by: claude-code (hc t28)
+- 2026-11-16T03:18:20Z · gate-opened · accept → accept · Implementation review of plugin-3-0-swift-6-sendable-typed-plugins-fork-2 ^t-e261a4
+  - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+  - revision: a671bea56407fa479235c9982b719bf6f5d34724
+  - holds: accept
+  - drives: review
   - by: claude-code (hc t28)
