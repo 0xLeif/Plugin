@@ -5,7 +5,7 @@ aliases: [plugin-3-swift6]
 objective: "Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2"
 intent_scope: ""
 modules: [Plugin]
-stage: build
+stage: accept
 stage_status: active
 iteration: 1
 callers: []
@@ -16,12 +16,12 @@ requirements: []
 cases: []
 design: []
 files: []
-observations: []
+observations: [2026-11-16-at-46c3b31-swift-test-swift-6-mode-11-tests-in-4-suites-pass]
 bugs: []
 blockers: []
 waiting_on_human: []
 run_consents: []
-next: Continue build
+next: Continue accept
 ---
 # Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
 
@@ -36,6 +36,8 @@ Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
 - 0xLeif decided "Approve the scope of plugin-3-0-swift-6-sendable-typed-plugins-fork-2": "yes do Plugin 3.0 and Scribe 3.1" (Claude Code chat (hc t28), 2026-11-16, after the summary of Plugin 3.0 (Swift 6, Sendable typed plugins, Fork 2) and Scribe 3.1 adopting it compatibly); recorded by claude-code (hc t28); a relayed claim, not authenticated; ran specsync change approve plugin-3-0-swift-6-sendable-typed-plugins-fork-2 as 0xLeif
 
 ## What was verified
+
+- [At 46c3b31: swift test (Swift 6 mode) 11 tests in 4 suites pass with no data-race diagnostics, including a 50-plugin barrier proving concurrent runs, in-order runs, 500+500 concurrent register/remove with no losses, and a ScribePlugin-shaped refinement whose types written only against handle(value:) conform unchanged; specsync check --strict passes; no package dependencies; the builder's ThreadSanitizer, release build, compile-time type checks and DocC analysis pass](evidence/2026-11-16-at-46c3b31-swift-test-swift-6-mode-11-tests-in-4-suites-pass.md)
 
 ## Open threads
 
@@ -73,4 +75,14 @@ Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
   - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
   - gate: native:approved
   - revision: 178fd9029ee7c3b5363ba846cde3c30804d71e29
+  - by: claude-code (hc t28)
+- 2026-11-16T03:18:17Z · advance · build → test · native:approved ^t-5b1d14
+  - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+  - gate: native:approved
+  - revision: 46c3b31c39e6baa10793deabd923d55e6a56d543
+  - by: claude-code (hc t28)
+- 2026-11-16T03:18:17Z · advance · test → accept · native:approved ^t-3a350c
+  - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+  - gate: native:approved
+  - revision: 46c3b31c39e6baa10793deabd923d55e6a56d543
   - by: claude-code (hc t28)
