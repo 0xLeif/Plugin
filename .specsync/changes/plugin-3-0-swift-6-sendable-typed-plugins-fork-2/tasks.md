@@ -5,7 +5,7 @@ artifact: tasks
 
 # Tasks
 
-- [ ] Swift 6 package on Fork 2.x (REQ-Plugin-1)
-- [ ] Sendable typed plugin protocols and a safe container (REQ-Plugin-2)
-- [ ] A ScribePlugin-shaped refinement test (REQ-Plugin-3)
-- [ ] README, DocC and spec (REQ-Plugin-4)
+- [x] Swift 6 package on Fork 2.x (REQ-Plugin-1)
+- [x] Sendable typed plugin protocols and a safe container (REQ-Plugin-2)
+- [x] A ScribePlugin-shaped refinement test (REQ-Plugin-3)
+- [x] README, DocC and spec (REQ-Plugin-4)
