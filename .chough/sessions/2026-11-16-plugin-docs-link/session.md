@@ -5,7 +5,7 @@ aliases: [plugin-docs-link]
 objective: Plugin's README links its DocC site
 intent_scope: PLUGIN3-1 docs
 modules: []
-stage: accept
+stage: done
 stage_status: active
 iteration: 1
 callers: []
@@ -19,13 +19,9 @@ files: []
 observations: [2026-11-16-the-readme-links-https-0xleif-github-io-plugin-documentation]
 bugs: []
 blockers: []
-waiting_on_human:
-  - gate: Implementation review of plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
-    holds: accept
-    drives: review
-    opened: 2026-11-16T03:24:33Z
+waiting_on_human: []
 run_consents: []
-next: Continue accept
+next: Continue done
 ---
 # Plugin's README links its DocC site
 
@@ -38,6 +34,7 @@ Plugin's README links its DocC site
 ## Decisions and why
 
 - 0xLeif decided "Approve the scope of plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article": "alsmo make sure the scribe and plugin github pages are loading and all docs swift docc" (Claude Code chat (hc t28), 2026-11-16; the Plugin README had no link to its DocC site); recorded by claude-code (hc t28); a relayed claim, not authenticated; ran specsync change approve plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article as 0xLeif
+- 0xLeif decided "Implementation review of plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article": "i approve all" (Claude Code chat (hc t28), 2026-11-16, accepting the Plugin docs fix (PR 0xLeif/Plugin#10) and authorizing its admin merge); recorded by claude-code (hc t28); a relayed claim, not authenticated; ran specsync change review plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article as 0xLeif with verdict pass
 
 ## What was verified
 
@@ -95,4 +92,20 @@ Plugin's README links its DocC site
   - revision: 371dcca7e6608af9b3ba6156b011f0cbe12dbab1
   - holds: accept
   - drives: review
+  - by: claude-code (hc t28)
+- 2026-11-16T03:32:20Z · gate-closed · accept → accept · Implementation review of plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article ^t-46a370
+  - native_change: plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
+  - revision: cf1102df25e45963f3481e47ddca79115c11e659
+  - relayed_by:
+    - decided_by: 0xLeif
+    - words: i approve all
+    - where: Claude Code chat (hc t28), 2026-11-16, accepting the Plugin docs fix (PR 0xLeif/Plugin#10) and authorizing its admin merge
+    - recorded_by: claude-code (hc t28)
+    - native: specsync change review plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
+    - actor: 0xLeif
+  - by: claude-code (hc t28)
+- 2026-11-16T03:32:20Z · advance · accept → done · native:archived ^t-04f588
+  - native_change: plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article
+  - gate: native:archived
+  - revision: cf1102df25e45963f3481e47ddca79115c11e659
   - by: claude-code (hc t28)

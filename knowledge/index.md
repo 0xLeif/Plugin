@@ -24,6 +24,7 @@ changes. Changes archived before the journal began are in [.specsync/archive/cha
 
 Newest posts:
 
+- [Plugin's README links its DocC site](journal/2026-11-16-plugin-s-readme-links-its-docc-site.md) (2026-11-16, shipped)
 - [Plugin 3.0: Swift 6](journal/2026-11-16-plugin-3-0-swift-6.md) (2026-11-16, shipped)
 
 ## Where things live
@@ -56,6 +57,7 @@ Lessons that span projects:
 
 Lesson bundles of the newest 3 archived changes:
 
+- [plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article](../.specsync/archive/changes/2026-11-16-plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article/lesson-bundle.md), Plugin's README links its DocC documentation and the Moving from 2.x article
 - [plugin-3-0-swift-6-sendable-typed-plugins-fork-2](../.specsync/archive/changes/2026-11-16-plugin-3-0-swift-6-sendable-typed-plugins-fork-2/lesson-bundle.md), Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
 
 ## Snapshots and briefs
