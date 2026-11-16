@@ -1,0 +1,60 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "0xLeif",
+      "timestamp": 1794798588,
+      "digest": "68dcc373ce52bcc9ab86af17212d6cba2fa2b21c938f4cd76f89b56a3bae40d4",
+      "note": "Approved by 0xLeif at the Chough gate \"Approve the scope of plugin-3-0-swift-6-sendable-typed-plugins-fork-2\": \"yes do Plugin 3.0 and Scribe 3.1\" (Claude Code chat (hc t28), 2026-11-16, after the summary of Plugin 3.0 (Swift 6, Sendable typed plugins, Fork 2) and Scribe 3.1 adopting it compatibly). Relayed and recorded by claude-code (hc t28) at 2026-11-16T03:09:47Z through chough gate record 1b4da40916f2; a relayed claim, not authenticated.",
+      "approved_scope": {
+        "schema_version": 1,
+        "change_id": "plugin-3-0-swift-6-sendable-typed-plugins-fork-2",
+        "title": "Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2",
+        "description": "Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2",
+        "kind": "feature",
+        "affected_specs": [
+          "Plugin"
+        ],
+        "affected_paths": [
+          ".chough/sessions",
+          ".github/workflows",
+          "Package.swift",
+          "README.md",
+          "Sources/Plugin",
+          "Tests/PluginTests",
+          "specs/Plugin"
+        ],
+        "no_spec_change": false,
+        "no_spec_change_rationale": null,
+        "acceptance_criteria": [
+          "Plugin 3.0 builds in Swift 6 with Sendable, typed plugins and a safe container on Fork 2.x, and Scribe's ScribePlugin can refine it without breaking Scribe 3.0 plugins."
+        ],
+        "dependencies": [],
+        "supersedes": [],
+        "answers": {
+          "architecture_risk": "yes",
+          "constraints": "Swift 6 strict concurrency; compatibility with Scribe 3.0 plugins; a 3.0 major version",
+          "public_contract": "yes"
+        }
+      },
+      "approved_delta_digests": {
+        "Plugin": "4b8820b03027d85434f829d891b68a040770a18ecf3244aef94c4a946fb80bd9"
+      },
+      "approved_delta_bases": {},
+      "relayed_by": {
+        "decided_by": "0xLeif",
+        "words": "yes do Plugin 3.0 and Scribe 3.1",
+        "where": "Claude Code chat (hc t28), 2026-11-16, after the summary of Plugin 3.0 (Swift 6, Sendable typed plugins, Fork 2) and Scribe 3.1 adopting it compatibly",
+        "recorded_by": "claude-code (hc t28)"
+      }
+    },
+    {
+      "gate": "finalization",
+      "actor": "specsync:finalization",
+      "timestamp": 1794799153,
+      "digest": "af744a606b49ca8ecd119c047805c4f1eb45eeac9d31eaf682078c1fb48c3f3b",
+      "note": "Same-PR finalization closing digest"
+    }
+  ],
+  "reopenings": []
+}

@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "domain": "specsync.workflow-v2-baseline.v1",
+  "cutoff_commit": "ae23e20b863e0bc2b21fb4d6d359778d5c970873"
+}

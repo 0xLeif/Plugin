@@ -9,3 +9,6 @@ DerivedData/
 .netrc
 /.swiftpm/
 /Package.resolved
+
+# spec-sync hash cache (regenerated locally)
+.specsync/hashes.json

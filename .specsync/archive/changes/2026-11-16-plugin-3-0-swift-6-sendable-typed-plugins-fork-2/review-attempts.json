@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "reviews": [
+    {
+      "schema_version": 2,
+      "change_id": "plugin-3-0-swift-6-sendable-typed-plugins-fork-2",
+      "reviewer": "0xLeif",
+      "provenance": {
+        "schema_version": 1,
+        "provider": "github_actions_check",
+        "required_check": "SpecSync scoped review"
+      },
+      "verdict": "pass",
+      "implementation_commit": "fc8a0513b96b76549e9d07f7dca6c77a763bab40",
+      "contract_digest": "68dcc373ce52bcc9ab86af17212d6cba2fa2b21c938f4cd76f89b56a3bae40d4",
+      "execution_digest": "9ff1c012f828d7b2cbd487a622a02853503675549f8824da27f0abb82e6cbad9",
+      "workspace_digest": "704d059a08c0a072d9b75f2424b041bf512ddb9680b897597f191b25399ef978",
+      "timestamp": 1794799148,
+      "relayed_by": {
+        "decided_by": "0xLeif",
+        "words": "yes I accept Plugin 3.0",
+        "where": "Claude Code chat (hc t28), 2026-11-16, on the Plugin 3.0 implementation review (list 7174f8af2a36, 0xLeif/Plugin#9)",
+        "recorded_by": "claude-code (hc t28)"
+      }
+    }
+  ]
+}
