@@ -5,7 +5,7 @@ aliases: [plugin-3-swift6]
 objective: "Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2"
 intent_scope: ""
 modules: [Plugin]
-stage: plan
+stage: build
 stage_status: active
 iteration: 1
 callers: []
@@ -21,7 +21,7 @@ bugs: []
 blockers: []
 waiting_on_human: []
 run_consents: []
-next: Read scoped intent and native status, then choose the next action within the authorized scope.
+next: Continue build
 ---
 # Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
 
@@ -32,6 +32,8 @@ Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
 ## Where it stands
 
 ## Decisions and why
+
+- 0xLeif decided "Approve the scope of plugin-3-0-swift-6-sendable-typed-plugins-fork-2": "yes do Plugin 3.0 and Scribe 3.1" (Claude Code chat (hc t28), 2026-11-16, after the summary of Plugin 3.0 (Swift 6, Sendable typed plugins, Fork 2) and Scribe 3.1 adopting it compatibly); recorded by claude-code (hc t28); a relayed claim, not authenticated; ran specsync change approve plugin-3-0-swift-6-sendable-typed-plugins-fork-2 as 0xLeif
 
 ## What was verified
 
@@ -47,4 +49,28 @@ Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2
   - by: claude-code (hc t28)
 - 2026-11-16T03:08:56Z · skip · design → plan · A library API change; no visual design ^t-5e4319
   - revision: 7e77f9e539daf9161ea65804f176581255a958c2
+  - by: claude-code (hc t28)
+- 2026-11-16T03:09:46Z · gate-opened · plan → plan · Approve the scope of plugin-3-0-swift-6-sendable-typed-plugins-fork-2 ^t-e09a06
+  - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+  - revision: 178fd9029ee7c3b5363ba846cde3c30804d71e29
+  - holds: plan
+  - drives: approve
+  - by: claude-code (hc t28)
+- 2026-11-16T03:09:47Z · gate-closed · plan → plan · Approve the scope of plugin-3-0-swift-6-sendable-typed-plugins-fork-2 ^t-0e6c57
+  - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+  - revision: 178fd9029ee7c3b5363ba846cde3c30804d71e29
+  - relayed_by:
+    - decided_by: 0xLeif
+    - words: yes do Plugin 3.0 and Scribe 3.1
+    - where: Claude Code chat (hc t28), 2026-11-16, after the summary of Plugin 3.0 (Swift 6, Sendable typed plugins, Fork 2) and Scribe 3.1 adopting it compatibly
+    - recorded_by: claude-code (hc t28)
+    - summary_digest: 630d052cdd9207c5d2b15b0f072eab0afa6c7b0b45e98fd8e6da4ba9a368caff
+    - list: 1b4da40916f2
+    - native: specsync change approve plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+    - actor: 0xLeif
+  - by: claude-code (hc t28)
+- 2026-11-16T03:09:48Z · advance · plan → build · native:approved ^t-50d102
+  - native_change: plugin-3-0-swift-6-sendable-typed-plugins-fork-2
+  - gate: native:approved
+  - revision: 178fd9029ee7c3b5363ba846cde3c30804d71e29
   - by: claude-code (hc t28)
