@@ -1,0 +1,19 @@
+{
+  "base_commit": "ae23e20b863e0bc2b21fb4d6d359778d5c970873",
+  "created_at": 1794798536,
+  "paths": [
+    {
+      "digest": "ce8e6bd2a7394e38b9e11b69a12218ee9e2411a9f68bcc2a79e40c56ca1d2f82",
+      "path": ".specsync/config.toml"
+    },
+    {
+      "digest": "54ef76332b31df830699e9d4138396885ab72bae260a034a81ff02bf32d8e90a",
+      "path": ".specsync/version"
+    },
+    {
+      "digest": "e015f6a05bf49afd97d26dfcfe4314254106c3776459e9904dc8eacdd33b64c3",
+      "path": ".specsync/sdd.json"
+    }
+  ],
+  "version": 1
+}
