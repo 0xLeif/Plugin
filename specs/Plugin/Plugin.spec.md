@@ -1,6 +1,6 @@
 ---
 module: Plugin
-version: 2
+version: 3
 status: active
 files:
   - Sources/Plugin/Plugin.swift
@@ -142,3 +142,4 @@ The module owns the plugin protocols and the list. It does not own what a plugin
 | Date | Author | Change |
 |------|--------|--------|
 | 2026-11-16 | claude-code | Plugin 3.0: Swift 6 language mode; `Sendable` typed `Plugin<Input, Output>` and `ImmutablePlugin<Input>`; lock-protected `Plugins` list with tokens, removal, concurrent and in-order runs; `Pluginable` forwards to a `Plugins` list; Fork dependency removed; `ImmutablePluginable`, key paths and `Any` inputs removed (REQ-Plugin-1 to REQ-Plugin-4). |
+| 2026-11-16 | SpecSync | plugin-3-0-swift-6-sendable-typed-plugins-fork-2: Plugin 3.0: Swift 6, Sendable typed plugins, Fork 2 |
