@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "workflow_version": 3,
+  "workflow_origin_version": 2,
+  "id": "plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article",
+  "slug": "plugin-s-readme-links-its-docc-documentation-and-the-moving-from-2-x-article",
+  "title": "Plugin's README links its DocC documentation and the Moving from 2.x article",
+  "description": "Plugin's README links its DocC documentation and the Moving from 2.x article",
+  "kind": "documentation",
+  "state": "archived",
+  "canonical_applied": true,
+  "base_commit": "bd66202a737bc1557ba55bb757837db83e240909",
+  "created_at": 1794799448,
+  "updated_at": 1794799938,
+  "affected_specs": [],
+  "affected_paths": [
+    "README.md",
+    ".chough/sessions"
+  ],
+  "no_spec_change": true,
+  "no_spec_change_rationale": "A README link only",
+  "acceptance_criteria": [
+    "The README links the DocC site and the Moving from 2.x article, and both load."
+  ],
+  "selected_artifacts": [
+    "context",
+    "docs"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "no",
+    "public_contract": "no"
+  }
+}

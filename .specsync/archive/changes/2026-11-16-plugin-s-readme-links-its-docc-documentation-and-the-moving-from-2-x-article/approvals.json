@@ -37,6 +37,13 @@
         "where": "Claude Code chat (hc t28), 2026-11-16; the Plugin README had no link to its DocC site",
         "recorded_by": "claude-code (hc t28)"
       }
+    },
+    {
+      "gate": "finalization",
+      "actor": "specsync:finalization",
+      "timestamp": 1794799937,
+      "digest": "4c1a48cf72f50d9dabda0171f05c757a0cdefccb42b71f38b3656c32fa7993b6",
+      "note": "Same-PR finalization closing digest"
     }
   ],
   "reopenings": []
